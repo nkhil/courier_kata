@@ -14,7 +14,7 @@ Also, as the prices might be subject to change, I've separated it out into its o
 
 I've recently been investigating the functional approach Vs the object oriented approach. My previous experience at Makers has been very much object oriented, and I'm very familiar with that. However, for this project I wanted to try out a more functional approach where my library to keep my library more stateless and have discrete functional units which can be brought together to do a task.
 
-To keep the library truly stateless, I would like to move the parcel prices out of the application into a database layer.
+To keep the library truly stateless, I would like to move the parcel prices out of the application into a persistence database layer. However, given the time constraint I haven't implemented this here.
 
 ## Privacy
 
