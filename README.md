@@ -8,6 +8,8 @@ The brief mentions that the library should be programmatic. I interpreted that t
 
 As the brief doesn't explicitly mention the currency, and in order to keep the library currency agnostic to be able to keep the library scalable and reuseable, prices are stored as integers (in pennies, or the lowest unit of currency). This also avoids floating point errors. A helper method (formatPrice in App/helpers.js) can be used to convert the integer into a string for presentation purposes.
 
+Also, as the prices might be subject to change, I've separated it out into its own file.
+
 ## Functional programming Vs Object oriented programming
 
 I've recently been investigating the functional approach Vs the object oriented approach. My previous experience at Makers has been very much object oriented, and I'm very familiar with that. However, for this project I wanted to try out a more functional approach where my library to keep my library more stateless and have discrete functional units which can be brought together to do a task.
@@ -15,6 +17,10 @@ I've recently been investigating the functional approach Vs the object oriented 
 ## Privacy
 
 In order to keep the implementation private, I've decided to use the module pattern offered by JS to 'hide' the implementation details from the public.
+
+## Testing
+
+Coming soon.
 
 ## Linting
 
