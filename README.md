@@ -6,7 +6,7 @@ The brief mentions that the library should be programmatic. I interpreted that t
 
 ## Prices
 
-As the brief doesn't explicitly mention the currency, and in order to keep the library currency agnostic to be able to keep the library scalable and reuseable, prices are stored as integers (in pennies, or the lowest unit of currency). This also avoids floating point errors. A helper method (formatPrice in App/helpers.js) can be used to convert the integer into a string for presentation purposes.
+As the brief doesn't explicitly mention the currency, and in order to keep the library currency agnostic to be able to keep the library scalable and reuseable, prices are stored as integers (in pennies, or the lowest unit of currency). This also avoids floating point errors. A helper method can be used to convert the integer into a string for presentation purposes.
 
 Also, as the prices might be subject to change, I've separated it out into its own file.
 
@@ -28,7 +28,7 @@ This project uses ESlint along with Prettier. I'm using a modified version of We
 
 ## Git strategy
 
-I've followed the Atomic commit message strategy to keep my commits to one feature, fix or improvement. 
+I've followed the Atomic commit message strategy to keep my commits to one feature, fix or improvement.
 
 I'm following the [semantic commit message strategy](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification) to make my commits scannable and easy to parse.
 
