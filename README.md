@@ -28,7 +28,9 @@ This project uses ESlint along with Prettier. I'm using a modified version of We
 
 ## Git strategy
 
-I've followed the Atomic commit message strategy to keep my commits to one feature, fix or improvement.
+I've followed the Atomic commit message strategy to keep my commits to one feature, fix or improvement. 
+
+I'm following the [semantic commit message strategy](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification) to make my commits scannable and easy to parse.
 
 ## Branching Strategy
 
